@@ -39,11 +39,11 @@ def compare(you, comp):
             return 3
     else:
         if you == 3:
-            return 1
+            return 3
         elif you == 2:
             return 2
         else:
-            return 3
+            return 1
 
 you = comp = 0
 while not (you == finish or comp == finish):
